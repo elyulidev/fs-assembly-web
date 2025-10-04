@@ -1,0 +1,175 @@
+{
+	"HomePage": {
+		"title": "Página inicial",
+		"subtitle": "Bem-vindo à nossa plataforma de aprendizado",
+		"courseModulesTitle": "Módulos do curso",
+		"viewModuleButton": "Ver módulo"
+	},
+	"Header": {
+		"faq": "Faq"
+	},
+	"Footer": {
+		"rights": "Todos os direitos reservados"
+	},
+	"Course": {
+		"module1": {
+			"title": "Fundamentos e Arquitetura do Computador",
+			"description": "Este módulo inicial estabelece as bases teóricas indispensáveis. Introduz a linguagem assembly, sua relação com a linguagem de máquina e seu lugar no ecossistema de programação.",
+			"conference1": {
+				"title": "Introdução à Linguagem Assembly",
+				"description": "Boas-vindas e aplicações da linguagem assembly. O conceito de máquina virtual e relação entre assembly, linguagem de máquina e linguagens de alto nível.",
+				"slide1": {
+					"title": "Aplicações da Linguagem Assembly",
+					"content1": "Boas-vindas e aplicações da linguagem assembly: sistemas embarcados, otimização de jogos, controladores de dispositivos.",
+					"content2": "O conceito de máquina virtual: níveis de abstração desde o hardware até as linguagens de alto nível.",
+					"content3": "Relação entre assembly, linguagem de máquina e linguagens de alto nível (relação 1-para-1 vs. 1-para-muitos)."
+				},
+				"slide2": {
+					"title": "Arquitetura do Processador",
+					"content1": "Introdução à arquitetura do processador didático CS2010.",
+					"content2": "Componentes básicos de um sistema computacional.",
+					"content3": "Fluxo de execução de instruções."
+				},
+				"slide3": {
+					"title": "Conceitos Fundamentais",
+					"content1": "Linguagem assembly como representação simbólica de códigos de máquina.",
+					"content2": "Características da linguagem assembly: baixo nível, específica por arquitetura.",
+					"content3": "Vantagens e desvantagens em relação às linguagens de alto nível."
+				},
+				"slide4": {
+					"title": "Ferramentas e Ecossistema",
+					"content1": "Programa assembler e sua função no processo de desenvolvimento.",
+					"content2": "Tipos de assemblers: de passagem única e de duas passagens.",
+					"content3": "Ambientes de desenvolvimento para programação em assembly."
+				}
+			},
+			"conference2": {
+				"title": "Sistemas de Numeração e Representação de Dados",
+				"description": "Sistemas binário, decimal e hexadecimal. Representação de inteiros e caracteres."
+			},
+			"conference3": {
+				"title": "Arquitetura Básica do Processador (CPU)",
+				"description": "Componentes de um microcomputador: CPU, memória, barramentos. A CPU: UAL e Unidade de Controle."
+			},
+			"conference4": {
+				"title": "Ferramentas do Programador e Primeiro Programa",
+				"description": "Editores de código vs IDEs. Assemblers, linkers e depuradores."
+			}
+		},
+		"module2": {
+			"title": "Conjunto de Instruções e Acesso à Memória",
+			"description": "Neste módulo, os estudantes começarão a escrever código funcional, aprendendo as instruções fundamentais para mover dados, realizar operações aritméticas e acessar a memória.",
+			"conference1": {
+				"title": "Transferência de Dados e Definição de Variáveis",
+				"description": "Instruções de transferência: MOV, LDI. Diretivas de definição de dados."
+			},
+			"conference2": {
+				"title": "Aritmética de Inteiros",
+				"description": "Instruções aritméticas básicas: ADD, SUB, INC, DEC. Instrução NEG para complemento a dois."
+			},
+			"conference3": {
+				"title": "Acesso à Memória e Modos de Endereçamento I",
+				"description": "Acesso direto à memória: LDS e STS. Modos de endereçamento fundamentais."
+			},
+			"conference4": {
+				"title": "Modos de Endereçamento II e Prática",
+				"description": "Aprofundamento em endereçamento indireto. Endereçamento indexado."
+			}
+		},
+		"module3": {
+			"title": "Lógica e Fluxo de Controle",
+			"description": "Este módulo é crucial, pois ensina os estudantes a implementar lógica de decisão e estruturas repetitivas, que são a base de qualquer algoritmo complexo.",
+			"conference1": {
+				"title": "Flags, Comparações e Saltos Incondicionais",
+				"description": "O registro de flags (FLAGS/EFLAGS). Instrução CMP e saltos incondicionais JMP."
+			},
+			"conference2": {
+				"title": "Saltos Condicionais",
+				"description": "Instruções de salto baseadas em flags. Implementação de estruturas IF-THEN-ELSE."
+			},
+			"conference3": {
+				"title": "Loops",
+				"description": "Implementação de loops WHILE e DO-WHILE. Instrução LOOP e suas variantes."
+			},
+			"conference4": {
+				"title": "Operações a Nível de Bits",
+				"description": "Instruções lógicas: AND, OR, XOR, NOT. Instruções de deslocamento e rotação."
+			}
+		},
+		"module4": {
+			"title": "Subprogramas, Pilha e Interface com Linguagens de Alto Nível",
+			"description": "Este módulo introduz a programação modular através de sub-rotinas. Explora o funcionamento da pilha e a interoperabilidade com C/C++.",
+			"conference1": {
+				"title": "A Pilha e seu Funcionamento",
+				"description": "Conceito de pilha (LIFO). Registros de pilha: ESP e EBP. Instruções PUSH e POP."
+			},
+			"conference2": {
+				"title": "Subprogramas (Procedimentos e Funções)",
+				"description": "Instruções CALL e RET. O quadro de pilha (stack frame). Prólogo e epílogo de uma função."
+			},
+			"conference3": {
+				"title": "Convenções de Chamada e Variáveis Locais",
+				"description": "Passagem de parâmetros para sub-rotinas. Criação de variáveis locais na pilha."
+			},
+			"conference4": {
+				"title": "Interface com Linguagens de Alto Nível (C/C++)",
+				"description": "Como chamar rotinas assembly a partir de C/C++ e vice-versa. Tratamento de nomes."
+			}
+		},
+		"module5": {
+			"title": "Estruturas de Dados",
+			"description": "Aborda as estruturas de dados mais comuns, como arrays e strings, e como manipulá-las eficientemente em assembly.",
+			"conference1": {
+				"title": "Arrays Unidimensionais",
+				"description": "Definição de arrays. Cálculo de endereços e acesso a elementos."
+			},
+			"conference2": {
+				"title": "Processamento de Strings",
+				"description": "Representação de strings de caracteres. Instruções de string."
+			},
+			"conference3": {
+				"title": "Arrays Multidimensionais e Estruturas",
+				"description": "Representação de arrays bidimensionais. Mapeamento de struct de C para assembly."
+			},
+			"conference4": {
+				"title": "Recursividade",
+				"description": "Conceito de recursividade e sua implementação usando a pilha. Cálculo do fatorial."
+			}
+		},
+		"module6": {
+			"title": "Tópicos Avançados e de Sistema",
+			"description": "Este módulo final explora tópicos mais complexos como conversão para código de máquina, interação com o sistema operacional e aritmética de ponto flutuante.",
+			"conference1": {
+				"title": "Assemblagem e Código de Máquina",
+				"description": "Processo de conversão de mnemônicos para opcodes. Formatos de instrução x86/CS2010."
+			},
+			"conference2": {
+				"title": "Interrupções e Serviços do Sistema Operacional",
+				"description": "Conceito de interrupções. Uso de INT para serviços do BIOS ou SO."
+			},
+			"conference3": {
+				"title": "Aritmética de Ponto Flutuante I",
+				"description": "Representação IEEE 754. Unidade de Ponto Flutuante (FPU) e seus registros."
+			},
+			"conference4": {
+				"title": "Aritmética de Ponto Flutuante II e Revisão Geral",
+				"description": "Instruções FMUL e FDIV. Comparação de números de ponto flutuante. Revisão geral."
+			}
+		},
+		"conferenceCount": "{count, plural, =0 {0 conferências} =1 {1 conferência} other {# conferências}}",
+		"estimatedHours": "{hours} horas estimadas",
+		"toBeAdded": {
+			"title": "A ser adicionado",
+			"content": "O conteúdo detalhado será adicionado em breve."
+		}
+	},
+	"Theme": {
+		"toggle": "Mudar tema",
+		"light": "Claro",
+		"dark": "Escuro",
+		"system": "Sistema"
+	},
+	"LanguageSwitcher": {
+		"toggle": "Selecionar idioma"
+	}
+}

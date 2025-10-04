@@ -1,0 +1,175 @@
+{
+	"HomePage": {
+		"title": "Página de inicio",
+		"subtitle": "Bienvenido a nuestra plataforma de aprendizaje",
+		"courseModulesTitle": "Módulos del curso",
+		"viewModuleButton": "Ver módulo"
+	},
+	"Header": {
+		"faq": "Faq"
+	},
+	"Footer": {
+		"rights": "Todos los derechos reservados"
+	},
+	"Course": {
+		"module1": {
+			"title": "Fundamentos y Arquitectura del Computador",
+			"description": "Este módulo inicial establece las bases teóricas indispensables. Se introduce el lenguaje ensamblador, su relación con el lenguaje de máquina y su lugar en el ecosistema de la programación.",
+			"conference1": {
+				"title": "Introducción al Lenguaje Ensamblador",
+				"description": "Bienvenida y aplicaciones del lenguaje ensamblador. El concepto de máquina virtual y relación entre ensamblador, lenguaje de máquina y lenguajes de alto nivel.",
+				"slide1": {
+					"title": "Aplicaciones del Lenguaje Ensamblador",
+					"content1": "Bienvenida y aplicaciones del lenguaje ensamblador: sistemas embebidos, optimización de videojuegos, controladores de dispositivos.",
+					"content2": "El concepto de máquina virtual: niveles de abstracción desde el hardware hasta los lenguajes de alto nivel.",
+					"content3": "Relación entre ensamblador, lenguaje de máquina y lenguajes de alto nivel (relación 1-a-1 vs. 1-a-varios)."
+				},
+				"slide2": {
+					"title": "Arquitectura del Procesador",
+					"content1": "Introducción a la arquitectura del procesador didáctico CS2010.",
+					"content2": "Componentes básicos de un sistema computacional.",
+					"content3": "Flujo de ejecución de instrucciones."
+				},
+				"slide3": {
+					"title": "Conceptos Fundamentales",
+					"content1": "Lenguaje ensamblador como representación simbólica de códigos de máquina.",
+					"content2": "Características del lenguaje ensamblador: bajo nivel, específico por arquitectura.",
+					"content3": "Ventajas y desventajas respecto a lenguajes de alto nivel."
+				},
+				"slide4": {
+					"title": "Herramientas y Ecosistema",
+					"content1": "Programa ensamblador y su función en el proceso de desarrollo.",
+					"content2": "Tipos de ensambladores: de un solo paso y de dos pasos.",
+					"content3": "Entornos de desarrollo para programación en ensamblador."
+				}
+			},
+			"conference2": {
+				"title": "Sistemas de Numeración y Representación de Datos",
+				"description": "Sistemas binario, decimal y hexadecimal. Representación de enteros y caracteres."
+			},
+			"conference3": {
+				"title": "Arquitectura Básica del Procesador (CPU)",
+				"description": "Componentes de una microcomputadora: CPU, memoria, buses. La CPU: ALU y Unidad de Control."
+			},
+			"conference4": {
+				"title": "Herramientas del Programador y Primer Programa",
+				"description": "Editores de código vs IDEs. Ensambladores, enlazadores y depuradores."
+			}
+		},
+		"module2": {
+			"title": "Juego de Instrucciones y Acceso a Memoria",
+			"description": "En este módulo, los estudiantes comenzarán a escribir código funcional, aprendiendo las instrucciones fundamentales para mover datos, realizar operaciones aritméticas y acceder a la memoria.",
+			"conference1": {
+				"title": "Transferencia de Datos y Definición de Variables",
+				"description": "Instrucciones de transferencia: MOV, LDI. Directivas de definición de datos."
+			},
+			"conference2": {
+				"title": "Aritmética de Enteros",
+				"description": "Instrucciones aritméticas básicas: ADD, SUB, INC, DEC. Instrucción NEG para complemento a dos."
+			},
+			"conference3": {
+				"title": "Acceso a Memoria y Modos de Direccionamiento I",
+				"description": "Acceso directo a memoria: LDS y STS. Modos de direccionamiento fundamentales."
+			},
+			"conference4": {
+				"title": "Modos de Direccionamiento II y Práctica",
+				"description": "Profundización en direccionamiento indirecto. Direccionamiento indexado."
+			}
+		},
+		"module3": {
+			"title": "Lógica y Flujo de Control",
+			"description": "Este módulo es crucial, ya que enseña a los estudiantes a implementar lógica de decisión y estructuras repetitivas, que son la base de cualquier algoritmo complejo.",
+			"conference1": {
+				"title": "Banderas, Comparaciones y Saltos Incondicionales",
+				"description": "El registro de banderas (FLAGS/EFLAGS). Instrucción CMP y saltos incondicionales JMP."
+			},
+			"conference2": {
+				"title": "Saltos Condicionales",
+				"description": "Instrucciones de salto basadas en banderas. Implementación de estructuras IF-THEN-ELSE."
+			},
+			"conference3": {
+				"title": "Bucles",
+				"description": "Implementación de bucles WHILE y DO-WHILE. Instrucción LOOP y sus variantes."
+			},
+			"conference4": {
+				"title": "Operaciones a Nivel de Bits",
+				"description": "Instrucciones lógicas: AND, OR, XOR, NOT. Instrucciones de desplazamiento y rotación."
+			}
+		},
+		"module4": {
+			"title": "Subprogramas, Pila e Interfaz con Lenguajes de Alto Nivel",
+			"description": "Este módulo introduce la programación modular a través de subrutinas. Se explora el funcionamiento de la pila y la interoperabilidad con C/C++.",
+			"conference1": {
+				"title": "La Pila y su Funcionamiento",
+				"description": "Concepto de pila (LIFO). Registros de pila: ESP y EBP. Instrucciones PUSH y POP."
+			},
+			"conference2": {
+				"title": "Subprogramas (Procedimientos y Funciones)",
+				"description": "Instrucciones CALL y RET. El marco de pila (stack frame). Prólogo y epílogo de una función."
+			},
+			"conference3": {
+				"title": "Convenciones de Llamada y Variables Locales",
+				"description": "Paso de parámetros a subrutinas. Creación de variables locales en la pila."
+			},
+			"conference4": {
+				"title": "Interfaz con Lenguajes de Alto Nivel (C/C++)",
+				"description": "Cómo llamar a rutinas de ensamblador desde C/C++ y viceversa. Manejo de nombres."
+			}
+		},
+		"module5": {
+			"title": "Estructuras de Datos",
+			"description": "Se abordan las estructuras de datos más comunes, como arreglos y cadenas, y cómo manipularlas eficientemente en ensamblador.",
+			"conference1": {
+				"title": "Arreglos Unidimensionales",
+				"description": "Definición de arreglos. Cálculo de direcciones y acceso a elementos."
+			},
+			"conference2": {
+				"title": "Procesamiento de Cadenas",
+				"description": "Representación de cadenas de caracteres. Instrucciones de cadena."
+			},
+			"conference3": {
+				"title": "Arreglos Multidimensionales y Estructuras",
+				"description": "Representación de arreglos bidimensionales. Mapeo de struct de C a ensamblador."
+			},
+			"conference4": {
+				"title": "Recursividad",
+				"description": "Concepto de recursividad y su implementación usando la pila. Cálculo del factorial."
+			}
+		},
+		"module6": {
+			"title": "Tópicos Avanzados y de Sistema",
+			"description": "Este módulo final explora temas más complejos como la conversión a código máquina, interacción con el sistema operativo y aritmética de punto flotante.",
+			"conference1": {
+				"title": "Ensamblado y Código Máquina",
+				"description": "Proceso de conversión de mnemónicos a opcodes. Formatos de instrucción x86/CS2010."
+			},
+			"conference2": {
+				"title": "Interrupciones y Servicios del Sistema Operativo",
+				"description": "Concepto de interrupciones. Uso de INT para servicios del BIOS o SO."
+			},
+			"conference3": {
+				"title": "Aritmética de Punto Flotante I",
+				"description": "Representación IEEE 754. Unidad de Punto Flotante (FPU) y sus registros."
+			},
+			"conference4": {
+				"title": "Aritmética de Punto Flotante II y Repaso General",
+				"description": "Instrucciones FMUL y FDIV. Comparación de números flotantes. Repaso general."
+			}
+		},
+		"conferenceCount": "{count, plural, =0 {0 conferencias} =1 {1 conferencia} other {# conferencias}}",
+		"estimatedHours": "{hours} horas estimadas",
+		"toBeAdded": {
+			"title": "Por agregar",
+			"content": "El contenido detallado será agregado próximamente."
+		}
+	},
+	"Theme": {
+		"toggle": "Cambiar tema",
+		"light": "Claro",
+		"dark": "Oscuro",
+		"system": "Sistema"
+	},
+	"LanguageSwitcher": {
+		"toggle": "Seleccionar idioma"
+	}
+}
