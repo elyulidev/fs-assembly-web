@@ -156,8 +156,15 @@
 				"description": "Instruções FMUL e FDIV. Comparação de números de ponto flutuante. Revisão geral."
 			}
 		},
+		"downloadPdf": "Baixar PDF do módulo",
+		"slide": "Slide {current} de {total}",
+		"previous": "Anterior",
+		"next": "Próximo",
 		"conferenceCount": "{count, plural, =0 {0 conferências} =1 {1 conferência} other {# conferências}}",
 		"estimatedHours": "{hours} horas estimadas",
+		"backToModules": "Voltar aos módulos",
+		"backToModule": "Voltar ao módulo {moduleTitle}",
+		"conferences": "Conferências",
 		"toBeAdded": {
 			"title": "A ser adicionado",
 			"content": "O conteúdo detalhado será adicionado em breve."

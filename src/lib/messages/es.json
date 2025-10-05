@@ -156,8 +156,15 @@
 				"description": "Instrucciones FMUL y FDIV. Comparación de números flotantes. Repaso general."
 			}
 		},
+		"downloadPdf": "Descargar PDF del módulo",
+		"slide": "Slide {current} de {total}",
+		"previous": "Anterior",
+		"next": "Próximo",
 		"conferenceCount": "{count, plural, =0 {0 conferencias} =1 {1 conferencia} other {# conferencias}}",
 		"estimatedHours": "{hours} horas estimadas",
+		"backToModules": "Volver a los módulos",
+		"backToModule": "Volver al módulo {moduleTitle}",
+		"conferences": "Conferencias",
 		"toBeAdded": {
 			"title": "Por agregar",
 			"content": "El contenido detallado será agregado próximamente."
