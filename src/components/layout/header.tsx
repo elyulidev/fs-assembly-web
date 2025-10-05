@@ -24,7 +24,6 @@ export function Header() {
 						<Button variant='ghost' asChild>
 							<Link href='/faq'>
 								<HelpCircle className='h-4 w-4 mr-2' />
-								{t("faq")}
 							</Link>
 						</Button>
 						<LanguageSwitcher />
