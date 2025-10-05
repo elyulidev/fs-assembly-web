@@ -171,5 +171,32 @@
 	},
 	"LanguageSwitcher": {
 		"toggle": "Selecionar idioma"
+	},
+	"FaqPage": {
+		"title": "Perguntas Frequentes",
+		"subtitle": "Encontre respostas para as perguntas mais comuns sobre o curso de linguagem assembly.",
+		"generalQuestionsTitle": "Perguntas Gerais",
+		"faqs": {
+			"q1": "O que é a linguagem assembly?",
+			"a1": "A linguagem assembly é uma linguagem de programação de baixo nível que foi projetada para ser facilmente traduzida em código de máquina.",
+			"q2": "Quais são as principais características da linguagem assembly?",
+			"a2": "As principais características da linguagem assembly incluem sua proximidade com o hardware, o uso de mnemônicos e a capacidade de manipular diretamente registros e memória.",
+			"q3": "Como a linguagem assembly se compara a outras linguagens de programação?",
+			"a3": "A linguagem assembly é mais próxima do hardware e permite um controle mais preciso sobre os recursos do sistema em comparação com linguagens de alto nível.",
+			"q4": "Quais ferramentas são utilizadas para programar em assembly?",
+			"a4": "As ferramentas comuns para programar em assembly incluem assemblers, debuggers e simuladores."
+		},
+		"aiAssistant": {
+			"title": "Ainda não há mensagens",
+			"description": "Faça perguntas sobre o curso e obtenha respostas instantâneas.",
+			"yourQuestionLabel": "Sua pergunta",
+			"placeholder": "Escreva sua pergunta aqui...",
+			"answerTitle": "Resposta",
+			"answerDescription": "Aqui está a resposta à sua pergunta: {question}",
+			"errorTitle": "Ops 🔥, algo deu errado",
+			"processingButton": "Procesando...",
+			"getAnswerButton": "Obter resposta",
+			"retry": "Tentar novamente"
+		}
 	}
 }

@@ -171,5 +171,32 @@
 	},
 	"LanguageSwitcher": {
 		"toggle": "Seleccionar idioma"
+	},
+	"FaqPage": {
+		"title": "Preguntas Frecuentes",
+		"subtitle": "¿Tienes alguna pregunta? Aquí tienes algunas respuestas.",
+		"generalQuestionsTitle": "Preguntas Generales",
+		"faqs": {
+			"q1": "¿Qué es el lenguaje ensamblador?",
+			"a1": "El lenguaje ensamblador es un lenguaje de programación de bajo nivel que está diseñado para ser fácilmente traducido a código máquina.",
+			"q2": "¿Cuáles son las principales características del lenguaje ensamblador?",
+			"a2": "Las principales características del lenguaje ensamblador incluyen su cercanía al hardware, el uso de mnemónicos y la capacidad de manipular directamente registros y memoria.",
+			"q3": "¿Cómo se compara el lenguaje ensamblador con otros lenguajes de programación?",
+			"a3": "El lenguaje ensamblador es más cercano al hardware y permite un control más preciso sobre los recursos del sistema en comparación con lenguajes de alto nivel.",
+			"q4": "¿Qué herramientas se utilizan para programar en ensamblador?",
+			"a4": "Las herramientas comunes para programar en ensamblador incluyen ensambladores, depuradores y simuladores."
+		},
+		"aiAssistant": {
+			"title": "Aún no hay mensajes",
+			"description": "Haz preguntas sobre el curso y obtén respuestas instantáneas.",
+			"yourQuestionLabel": "Tu pregunta",
+			"placeholder": "Escribe tu pregunta aquí...",
+			"answerTitle": "Respuesta",
+			"answerDescription": "Aquí está la respuesta a tu pregunta:{question}",
+			"errorTitle": "Upss 🔥, algo salió mal",
+			"processingButton": "Procesando...",
+			"getAnswerButton": "Obtener respuesta",
+			"retry": "Reintentar"
+		}
 	}
 }
