@@ -11,7 +11,6 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Book, Clock } from "lucide-react";
-import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 
 export type HomePageProps = {
@@ -53,7 +52,7 @@ export default async function Home({ params }: HomePageProps) {
 				<h2 className='font-headline text-3xl font-bold text-center mb-10'>
 					{t("courseModulesTitle")}
 				</h2>
-				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+				<div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8'>
 					{courseData.map((module) => (
 						<Card
 							key={module.id}
